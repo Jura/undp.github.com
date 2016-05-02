@@ -48,7 +48,7 @@
             <td><%= accounting.formatMoney(v) %></td>
           </tr>
         <% }); %>
-        <% _.each(model.get('expendyears'), function(v,k) { %>
+        <% _.each(model.get('expenseyears'), function(v,k) { %>
           <tr>
             <td><strong><%= k %> Expense</strong></td>
             <td><%= accounting.formatMoney(v) %></td>

@@ -86,6 +86,7 @@ class Project(Model):
         "budget": [0.0],
         "document_name": [],
         "end": "2009-12-31",
+        "expense":[0],
         "expenditure": [-14933.0],
         "disbursement": [0],
         "fiscal_year": ["2013"],
@@ -105,6 +106,7 @@ class Project(Model):
             "donor_id": ["00078", "00141"],
             "donor_name": ["GOVERNMENT OF CANADA", "GOVERNMENT OF JAPAN"],
             "donor_short": ["CAN", "JPN"],
+            "expense": [0],
             "expenditure": [-14933.0],
             "disbursement": [0],
             "fiscal_year": ["2013"],
@@ -142,8 +144,9 @@ class Project(Model):
         self.budget = Field(name='budget', default=0.0)
         self.document_name = Field(name="document_name", default=[], key="title")
         self.end = Field(name='end', key="activity-date[@type='end-planned']")
+        self.expense = Field(name='expense', default=0.0)
         self.expenditure = Field(name='expenditure', default=0.0)
-        #self.disbursement = Field(name='disbursement', default=0.0)
+        self.disbursement = Field(name='disbursement', default=0.0)
         self.fiscal_year = Field(name="fiscal_year", default=[])
         self.iati_op_id = Field(name='iati_op_id', key='recipient-country')
         self.inst_id = Field(name='inst_id', key="ref", default='')
@@ -181,6 +184,7 @@ class Output(Model):
         "donor_id": ["00078", "00141"],
         "donor_name": ["GOVERNMENT OF CANADA", "GOVERNMENT OF JAPAN"],
         "donor_short": ["CAN", "JPN"],
+        "expense": [0],
         "expenditure": [-14933.0],
         "disbursement": [-14933.0],
         "fiscal_year": ["2013"],
@@ -203,6 +207,7 @@ class Output(Model):
         self.donor_id = Field(name='donor_id', default=set(), type='list')
         self.donor_name = Field(name='donor_name', default=[], type='list')
         self.donor_short = Field(name='donor_short', key='short_descr', default=[], type='list')
+        self.expense = Field(name='expense', default=[], type='list')
         self.expenditure = Field(name='expenditure', key="transaction-type[@code='E']", default=[], type='list')
         self.disbursement = Field(name='disbursement', key="transaction-type[@code='D']", default=[], type='list')
         self.fiscal_year = Field(name='fiscal_year', default=[], type='list')
@@ -301,11 +306,12 @@ class ProjectSummary(Model):
         self.id = Field(name='id')
         self.focus_area = Field(name='focus_area', default=set())
         self.fiscal_year = Field(name='fiscal_year')
+        self.expense = Field(name='expense', default=0)
         self.expenditure = Field(name='expenditure', default=0)
-        #self.disbursement = Field(name='disbursement', default=0)
+        self.disbursement = Field(name='disbursement', default=0)
         self.donors = Field(name='donors', default=[])
         self.donor_types = Field(name='donor_types', default=[])
-        self.donor_expend = Field(name='donor_expend', default=[])
+        self.donor_expense = Field(name='donor_expense', default=[])
         self.donor_countries = Field(name='donor_countries', default=[])
         self.donor_budget = Field(name='donor_budget', default=[])
         self.crs = Field(name='crs', default=set())
@@ -417,6 +423,7 @@ class OperatingUnit(Model):
     {
         "budget_sum": 877342412.0,
         "email": "registry.af@undp.org",
+        "expense_sum": 0,
         "expenditure_sum": 473070961.0,
         "disbursement_sum":0.0,
         "fund_type": "Other",
@@ -435,8 +442,9 @@ class OperatingUnit(Model):
 
         self.budget_sum = Field(name='budget_sum', default=0)
         self.email = Field(name='email')
+        self.expense_sum = Field(name='expense_sum', default=0)
         self.expenditure_sum = Field(name='expenditure_sum', default=0)
-        #self.disbursement_sum = Field(name='disbursement_sum', default=0)
+        self.disbursement_sum = Field(name='disbursement_sum', default=0)
         self.funding_sources_count = Field(name='funding_sources_count', default=0)
         self.id = Field(name='id')
         self.iso_num = Field(name='iso_num', key='iso3')

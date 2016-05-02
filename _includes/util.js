@@ -44,7 +44,7 @@ util.radius = function(scaleResult){
 }
 
 util.scale = function(cat,feature) {
-    if (cat == 'budget' || cat == 'expenditure') {
+    if (cat == 'budget' || cat == 'expense' || cat == 'expenditure' || cat == 'disburesement') {
         var size = Math.round(feature.properties[cat] / 100000);
         if (size < 10) {
             return 10;

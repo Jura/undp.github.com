@@ -2048,3 +2048,9 @@ body.ie8 #chart-hdi .details { display: none; }
     margin: 0 auto;
     position: relative;
 }
+
+.disaggregated {
+	height: auto;
+  line-height: .7rem;
+  padding-left: 60%;
+}

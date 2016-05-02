@@ -39,11 +39,23 @@ views.ProjectProfile = Backbone.View.extend({
                 .reduce(function(memo, num){ return memo + num; }, 0)
                 .value();
 
-            this.model.attributes.expenditure = _.chain(this.model.attributes.outputs)
-                .map(function (o) { return o.expenditure; })
+            this.model.attributes.expense = _.chain(this.model.attributes.outputs)
+                .map(function (o) { return o.expense; })
                 .flatten()
                 .reduce(function(memo, num){ return memo + num; }, 0)
                 .value();
+
+            this.model.attributes.expenditure = _.chain(this.model.attributes.outputs)
+            .map(function (o) { return o.expenditure; })
+            .flatten()
+            .reduce(function(memo, num){ return memo + num; }, 0)
+            .value();
+
+            this.model.attributes.disbursement = _.chain(this.model.attributes.outputs)
+            .map(function (o) { return o.disbursement; })
+            .flatten()
+            .reduce(function(memo, num){ return memo + num; }, 0)
+            .value();
 
             this.model.attributes.budgetyears = _.reduce(this.model.attributes.outputs, function (res, obj) {
                 _.each(obj.fiscal_year, function(o,i) {
@@ -52,6 +64,20 @@ views.ProjectProfile = Backbone.View.extend({
                 return res;
                 },{});
 
+            this.model.attributes.expenseyears = _.reduce(this.model.attributes.outputs, function (res, obj) {
+                _.each(obj.fiscal_year, function(o,i) {
+                    res[o] = (res[o] || 0) + obj.expense[i];
+                });
+                return res;
+                },{});
+
+            this.model.attributes.disbyears = _.reduce(this.model.attributes.outputs, function (res, obj) {
+                _.each(obj.fiscal_year, function(o,i) {
+                    res[o] = (res[o] || 0) + obj.disbursement[i];
+                });
+                return res;
+                },{});
+            
             this.model.attributes.expendyears = _.reduce(this.model.attributes.outputs, function (res, obj) {
                 _.each(obj.fiscal_year, function(o,i) {
                     res[o] = (res[o] || 0) + obj.expenditure[i];
@@ -65,7 +91,7 @@ views.ProjectProfile = Backbone.View.extend({
             var start = new Date(s[0],s[1]-1,s[2]).format('M d, Y');
             var end = new Date(e[0],e[1]-1,e[2]).format('M d, Y');
         }
-
+        
         var documents = [];
         if (this.model.get('document_name')) {
         	/*var filterDocNames = _(this.model.get('document_name')[0]).filter(function(n) {
@@ -270,13 +296,13 @@ views.ProjectProfile = Backbone.View.extend({
             				   {v: vendor},
             				   {v: (vendor == 'Consultant') ? vendor + '\'s payment' : row[6]},
             				   {v: ts},
-            				   {v: Math.round(row[0]*100)/100}
+            				   {v: Math.round(parseFloat(row[0])*100)/100}
             				]
             			};
             			// What to show if there is now PO reference  (row[6].trim() != '') ? row[6] : 'Purchase of goods/services'
             			if (tableRow.c[2].v.trim() == '') {
             				// deal with one line POs - use line description
-            				if (tableData.rows[tableData.rows.length-1].c[0].v != row[1] && (ftable.rows.length >= i || ftable.rows[i+1][1] != row[1])) {
+            				if (tableData.rows[tableData.rows.length-1] && tableData.rows[tableData.rows.length-1].c[0].v != row[1] && (ftable.rows.length >= i || ftable.rows[i+1][1] != row[1])) {
             					tableRow.c[2].v = row[5];
             				} else {
             					tableRow.c[2].v = 'Purchase of goods/services';

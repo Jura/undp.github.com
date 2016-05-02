@@ -51,7 +51,7 @@
           </div>
         </div>
         <% var prevBudget = null,
-               prevExpend = null,
+               prevExpense = null,
                fYears = FISCALYEARS.slice().reverse();
            _.each(fYears, function(y,i) { 
              if (model.get('budgetyears')[y] != undefined) { %>
@@ -74,9 +74,9 @@
                </div>
              </div>
              <div class='span5'>
-               <div><%= accounting.formatMoney(model.get('expendyears')[y]) %>
-                 <% if (prevExpend != null) { 
-                      var change = (((model.get('expendyears')[y] - prevExpend)/prevExpend)*100),
+               <div><%= accounting.formatMoney(model.get('expenseyears')[y]) %>
+                 <% if (prevExpense != null) { 
+                      var change = (((model.get('expenseyears')[y] - prevExpense)/prevExpense)*100),
                           changeSign = (change > 0) ? '+' : '';
                  %>
                       <span class='fiscalchange'><%= changeSign %><%= (change >= 100) ? change.toFixed(0) : change.toFixed(1) %>%</span>
@@ -84,9 +84,17 @@
                </div>
              </div>
            </div>
+          <% if (model.get('disbyears')[y] > 0) { %>
+                 <div>
+                 <div class="span12 disaggregated">
+                  <div><small>Expenditure: <%= accounting.formatMoney(model.get('disbyears')[y]) %><br>
+                  Disbursement: <%= accounting.formatMoney(model.get('expendyears')[y]) %></small></div>
+                 </div></div>
+               <% } %>
+           
            <%
            if (y != '2010') prevBudget = model.get('budgetyears')[y];
-           prevExpend = model.get('expendyears')[y];
+           prevExpense = model.get('expenseyears')[y];
            } %>
         <% }); %>
       </div>

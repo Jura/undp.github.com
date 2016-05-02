@@ -126,7 +126,7 @@ Filters = Backbone.Collection.extend({
         return {
             count: count,
             budget: global.projects[collection.id + 'Budget'][model.id],
-            expenditure: global.projects[collection.id + 'Expenditure'][model.id]
+            expense: global.projects[collection.id + 'Expense'][model.id]
         }
     },
     update: function() {
@@ -149,7 +149,7 @@ Filters = Backbone.Collection.extend({
             activeModel.set({
                 count: this.aggregate(this,activeModel).count,
                 budget: this.aggregate(this,activeModel).budget,
-                expenditure: this.aggregate(this,activeModel).expenditure
+                expense: this.aggregate(this,activeModel).expense
             });
 
         } else {
@@ -160,7 +160,7 @@ Filters = Backbone.Collection.extend({
                 model.set({
                     count: this.aggregate(this,model).count,
                     budget: this.aggregate(this,model).budget,
-                    expenditure: this.aggregate(this,model).expenditure,
+                    expense: this.aggregate(this,model).expense,
                 });
             },this);
         }
@@ -229,8 +229,8 @@ Projects = Backbone.Collection.extend({
 
         return sumDonorsUnderUnit.value()
     },
-    getBudgetAndExpenseOfFacet: function(collection,facetName,category){ // category is "budget" or "expenditure"
-        // the sum of budget (or expenditure) of respective facet
+    getBudgetAndExpenseOfFacet: function(collection,facetName,category){ // category is "budget" or "expense"
+        // the sum of budget (or expense) of respective facet
         // for example: donor_countriesBudget is the budget sum of
         // the category is capitalized here
         var facetCategory = facetName + category.capitalize(),
@@ -302,7 +302,7 @@ Projects = Backbone.Collection.extend({
                 }, 0);
 
                 setTimeout(function() {
-                    collection.getBudgetAndExpenseOfFacet(collection,facet,'expenditure');
+                    collection.getBudgetAndExpenseOfFacet(collection,facet,'expense');
                     if (subStatus === subProcesses) {
                         subCallback();
                     } else {
@@ -367,9 +367,9 @@ Projects = Backbone.Collection.extend({
         }, 0);
 
         setTimeout(function() {
-            // Total expenditure
-            collection['expenditure'] = collection.reduce(function(memo, model) {
-                return memo + parseFloat(model.get('expenditure'));
+            // Total expense
+            collection['expense'] = collection.reduce(function(memo, model) {
+                return memo + parseFloat(model.get('expense'));
             }, 0);
             if (status === processes) {
                 callback();
@@ -380,8 +380,8 @@ Projects = Backbone.Collection.extend({
         }, 0);
 
         setTimeout(function() {
-            // Donor expenditure
-            collection['donorExpenditure'] = collection.reduce(function(memo, model) {
+            // Donor expense
+            collection['donorExpense'] = collection.reduce(function(memo, model) {
                 _.each(model.get('donor_countries'),function(donor, i) {
                     var budget = model.get('donor_budget')[i] || 0;
                     memo[donor] = memo[donor] + budget || budget;
@@ -397,10 +397,10 @@ Projects = Backbone.Collection.extend({
         }, 0);
 
         setTimeout(function() {
-            // Funding by Country expenditure
-            collection['ctryExpenditure'] = collection.reduce(function(memo, model) {
+            // Funding by Country expense
+            collection['ctryExpense'] = collection.reduce(function(memo, model) {
                 _.each(model.get('donor_countries'),function(donor, i) {
-                    var budget = model.get('donor_expend')[i] || 0;
+                    var budget = model.get('donor_expense')[i] || 0;
                     memo[donor] = memo[donor] +  budget || budget;
                 },this);
                 return memo;

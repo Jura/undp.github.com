@@ -75,7 +75,7 @@
             </a>
           </li>
           <li>
-            <a href='#' class='map-btn' data-value='expenditure'>
+            <a href='#' class='map-btn' data-value='expense'>
               <span id='total-expenditure' class='total'></span>
               <span class='total-caption'><%= year %> Expense</span>
             </a>

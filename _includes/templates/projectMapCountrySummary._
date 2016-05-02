@@ -2,5 +2,5 @@
   <li>Projects <span><%= count %></span></li>
   <li>Budget Sources <span><%= fund %></span></li>
   <li>Budget <span><%= accounting.formatMoney(budget) %></span></li>
-  <li>Expense <span><%= accounting.formatMoney(expenditure) %></span></li>
+  <li>Expense <span><%= accounting.formatMoney(expense) %></span></li>
 </ul>

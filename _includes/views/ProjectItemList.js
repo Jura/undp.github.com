@@ -67,11 +67,11 @@ views.ProjectItemList = Backbone.View.extend({
         }
 
         if (donor) {
-            $('#total-expenditure').html(accounting.formatMoney(this.collection.donorExpenditure[donor.id] / 1000000) + 'M');
+            $('#total-expenditure').html(accounting.formatMoney(this.collection.donorExpense[donor.id] / 1000000) + 'M');
         } else if (donor_ctry) {
-            $('#total-expenditure').html(accounting.formatMoney(this.collection.ctryExpenditure[donor_ctry.id] / 1000000) + 'M');
+            $('#total-expenditure').html(accounting.formatMoney(this.collection.ctryExpense[donor_ctry.id] / 1000000) + 'M');
         } else {
-            $('#total-expenditure').html(accounting.formatMoney(this.collection.expenditure / 1000000) + 'M');
+            $('#total-expenditure').html(accounting.formatMoney(this.collection.expense / 1000000) + 'M');
         }
         if (models.length) {
 

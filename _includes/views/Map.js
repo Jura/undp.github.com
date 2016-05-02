@@ -135,7 +135,7 @@ views.Map = Backbone.View.extend({
             title: feature.properties.title,
             count: feature.properties.count,
             budget: accounting.formatMoney(feature.properties.budget),
-            expenditure: accounting.formatMoney(feature.properties.expenditure),
+            expense: accounting.formatMoney(feature.properties.expense),
             hdi:feature.properties.hdi
         })
     },
@@ -347,7 +347,7 @@ views.Map = Backbone.View.extend({
                     count = unit.operating_unit[model.id];
                     sources = (unit.donorID) ? false : unit.operating_unitSources[model.id];
                     budget = (unit.donorID && _.size(unit.operating_unit)) ? unit.donorBudget[unit.donorID] : unit.operating_unitBudget[model.id];
-                    expenditure = (unit.donorID && _.size(unit.operating_unit)) ? unit.donorExpenditure[unit.donorID] : unit.operating_unitExpenditure[model.id];
+                    expense = (unit.donorID && _.size(unit.operating_unit)) ? unit.donorExpense[unit.donorID] : unit.operating_unitExpense[model.id];
 
                     // Collect HDI data, create HDI graph view if filtered on a single operating_unit
                     if ((HDI[model.id]) ? HDI[model.id].hdi != '' : HDI[model.id]) {
@@ -364,7 +364,7 @@ views.Map = Backbone.View.extend({
                     model.centroid.properties.count = count;
                     model.centroid.properties.sources = sources;
                     model.centroid.properties.budget = budget;
-                    model.centroid.properties.expenditure = expenditure;
+                    model.centroid.properties.expense = expense;
                     model.centroid.properties.hdi = hdi;
                     model.centroid.properties.popup = view.circlePopup(layer,model.centroid);
                     model.centroid.properties.radius = util.radius(util.scale(layer,model.centroid));

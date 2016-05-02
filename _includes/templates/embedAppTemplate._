@@ -21,7 +21,7 @@
       </tr>
       <tr>
         <td><strong>Expense</strong></td>
-        <td data-value='expenditure'>
+        <td data-value='expense'>
           <span id='total-expenditure' class='total'></span>
         </td>
       </tr>

@@ -108,6 +108,7 @@ class Projects(Collection):
                 "award_id": "00011090",
                 "output_descr": "Preservation of biodiversity and long-lasting resources in Algeria.",
                 "donor_short": ["UNDP", "GEFTrustee"],
+                "expense": [],
                 "expenditure": [],
                 "disbursement": [],
                 "crs_descr": "Environmental policy and administrative management",
@@ -131,6 +132,7 @@ class Projects(Collection):
             "inst_descr": "National Execution",
             "start": "2002-01-01",
             "operating_unit_id": "DZA",
+            "expense": 0.0,
             "expenditure": 0.0,
             "disbursement": 0.0,
             "document_name": [
@@ -155,8 +157,9 @@ class Projects(Collection):
                     self.collection[pid].outputs.value.append(item.to_dict())
 
                     self.collection[pid].budget.value += sum(item.budget.value)
+                    self.collection[pid].expense.value += sum(item.expense.value)
                     self.collection[pid].expenditure.value += sum(item.expenditure.value)
-                    #self.collection[pid].disbursement.value += sum(item.disbursement.value)
+                    self.collection[pid].disbursement.value += sum(item.disbursement.value)
                     for year in item.fiscal_year.value:
                         if year not in self.collection[pid].fiscal_year.value:
                             self.collection[pid].fiscal_year.value.append(year)

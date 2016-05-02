@@ -46,7 +46,7 @@
                       </div>
                         <% var years = model.fiscal_year.reverse(),
                                budget = model.budget.reverse(),
-                               expend = model.expenditure.reverse();
+                               expense = model.expense.reverse();
                           _.each(years, function(o, i) { %>
                             <div>
                               <div class='span2'>
@@ -60,7 +60,7 @@
                                 <% } %>
                               </div>
                               <div class='span5'>
-                                <div><%= accounting.formatMoney(expend[i]) %></div>
+                                <div><%= accounting.formatMoney(expense[i]) %></div>
                               </div>
                             </div>
                         <% }); %>

@@ -48,7 +48,7 @@ function renderFocusAreaChart(chartData, rootPath, view) {
 
 function setBudgetHTML(donorInfo, model, notOperatingUnit, pathTo) {
     var donorBudget = donorInfo.budget;
-    var donorExpenditure = donorInfo.expenditure;
+    var donorExpense = donorInfo.expense;
 
     //Template of chart row
     var chartTemplate = '';
@@ -63,7 +63,7 @@ function setBudgetHTML(donorInfo, model, notOperatingUnit, pathTo) {
             ((notOperatingUnit) ? donorBudget : model.get('budget')),"$", 0, ",", "."
         );
     var budgetWidth = (notOperatingUnit) ? (donorBudget) : (model.get('budget'));
-    var expenditureWidth = (notOperatingUnit) ? (donorExpenditure) : (model.get('expenditure'));
+    var expenseWidth = (notOperatingUnit) ? (donorExpense) : (model.get('expense'));
     
     if (budget!='$0') {
         return {
@@ -72,7 +72,7 @@ function setBudgetHTML(donorInfo, model, notOperatingUnit, pathTo) {
             content: chartTemplate({
                 path: pathTo + model.collection.id + '-' + model.get('id'),
                 budgetWidth: budgetWidth,
-                expenditureWidth: expenditureWidth,
+                expenseWidth: expenseWidth,
                 name: model.get('name').toLowerCase().toTitleCase(),
                 budget: budget
             })
@@ -92,7 +92,7 @@ function addRows(selector, rows, view) {
 
     selector.children().each(function() {
         $('.data .budgetdata', this).width(($('.data .budgetdata', this).attr('data-budget') / max * 100) + '%');
-        $('.data .subdata', this).width(($('.data .subdata', this).attr('data-expenditure') / max * 100) + '%');
+        $('.data .subdata', this).width(($('.data .subdata', this).attr('data-expense') / max * 100) + '%');
     });
     if (view.donorCountry) $('#total-donors').html(view.chartModels.length);
 }
@@ -107,16 +107,16 @@ function renderBudgetSourcesChart(donor, donorCountrySelected, chartData, view, 
         	if (!(donor in donorTable)) {
         		donorTable[donor] = {
         			budget: 0,
-        			expenditure: 0
+        			expense: 0
         		};
         	}
             donorTable[donor].budget += project.get('donor_budget')[idx];
-            donorTable[donor].expenditure += project.get('donor_expend')[idx];   
+            donorTable[donor].expense += project.get('donor_expense')[idx];   
         })
     });
     var groupedSources = {};
     _(chartData).each(function(model) {
-        var donorInfo = {budget: 0, expenditure: 0};
+        var donorInfo = {budget: 0, expense: 0};
         var country = model.get('country');
         var donor = model.id;
         var notOperatingUnit = (donor || donorCountrySelected);
@@ -126,21 +126,21 @@ function renderBudgetSourcesChart(donor, donorCountrySelected, chartData, view, 
         	if (!(country in groupedSources)) {
         		groupedSources[country] = {
         			budget: 0,
-        			expenditure: 0
+        			expense: 0
         		};
         	}
         	groupedSources[country].budget += (donor in donorTable)? donorTable[donor].budget : 0;
-        	groupedSources[country].expenditure += (donor in donorTable)? donorTable[donor].expenditure : 0;   
+        	groupedSources[country].expense += (donor in donorTable)? donorTable[donor].expense : 0;   
         	
         } else {
         	
             donorInfo.budget = (donor in donorTable)? donorTable[donor].budget : 0;
-            donorInfo.expenditure = (donor in donorTable)? donorTable[donor].expenditure : 0;
+            donorInfo.expense = (donor in donorTable)? donorTable[donor].expense : 0;
             
             if (notOperatingUnit) {
                 if (donor) global.projects.map.collection.donorID = false;      
                 global.projects.map.collection.donorBudget[donor] = donorInfo.budget;
-                global.projects.map.collection.donorExpenditure[donor] = donorInfo.expenditure;
+                global.projects.map.collection.donorExpense[donor] = donorInfo.expense;
             }   
             
             var row = setBudgetHTML(donorInfo, model, notOperatingUnit, pathTo);
@@ -179,7 +179,7 @@ function renderRecipientOfficesChart(donor, donorCountrySelected, chartData, vie
 
     _(chartData).each(function(model) {
 
-        var donorInfo = { budget: 0, expenditure: 0};
+        var donorInfo = { budget: 0, expense: 0};
         
         donorInfo.budget = (donorCountrySelected || donor) ? global.projects.chain()
             .filter(function(project) {
@@ -192,7 +192,7 @@ function renderRecipientOfficesChart(donor, donorCountrySelected, chartData, vie
                 return memo + project.get('donor_budget')[donorIndex];
             }, 0).value() : 0;
 
-        donorInfo.expenditure = (donorCountrySelected || donor) ? global.projects.chain()
+        donorInfo.expense = (donorCountrySelected || donor) ? global.projects.chain()
             .filter(function(project) {
                 return project.get('operating_unit') === model.id;
             })
@@ -208,7 +208,7 @@ function renderRecipientOfficesChart(donor, donorCountrySelected, chartData, vie
         if (notOperatingUnit) {
             if (donor) global.projects.map.collection.donorID = false;
             global.projects.map.collection.operating_unitBudget[model.get('id')] = donorInfo.budget;
-            global.projects.map.collection.operating_unitExpenditure[model.get('id')] = donorInfo.expenditure;
+            global.projects.map.collection.operating_unitExpense[model.get('id')] = donorInfo.expense;
         }
 
         var row = setBudgetHTML(donorInfo, model, notOperatingUnit, pathTo);
