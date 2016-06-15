@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--IATI Publications - UNDP Development Projects by Countries-->
-<iati-activities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" generated-datetime="2016-04-07T10:20:37" version="2.02">
+<iati-activities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" generated-datetime="2016-06-08T10:55:48" version="2.02">
   <!--Sao Tome and Principe-->
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00045218</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -19,7 +19,7 @@
     <participating-org role="2" type="40" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -33,10 +33,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/00045218_STP-506-G02-HGrantAgreement.pdf">
       <title>
@@ -75,7 +75,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00053364" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00053364</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -86,7 +86,7 @@
     <description type="1">
       <narrative>RENFORCEMENT DE LA REPONSE NATIONALE A LA LUTTE CONTRE LE VIH/SIDA A SAO TOME ET PRINCIPE</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -156,37 +156,37 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
+      <value currency="USD" value-date="2016-05-31">0</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">1311.000</value>
+      <value currency="USD" value-date="2015-12-31">1311</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">3970.000</value>
+      <value currency="USD" value-date="2014-12-31">3970</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">115908.000</value>
+      <value currency="USD" value-date="2013-12-31">115908</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2012-01-01" />
       <period-end iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">76744.000</value>
+      <value currency="USD" value-date="2012-12-31">76744</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">15.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">16</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -194,9 +194,9 @@
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org type="40" ref="00327">
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">1311</value>
+      <provider-org type="40" ref="47045">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -205,13 +205,37 @@
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00327">
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">3970</value>
+      <provider-org type="40" ref="47045">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
-      <receiver-org ref="XM-DAC-41114">
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">115908</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">76744</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </receiver-org>
       <disbursement-channel code="2" />
@@ -219,31 +243,37 @@
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">195.000</value>
+      <value currency="USD" value-date="2015-12-31">195</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">0.000</value>
+      <value currency="USD" value-date="2014-12-31">0</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">-793.000</value>
+      <value currency="USD" value-date="2013-12-31">-793</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">33029.000</value>
+      <value currency="USD" value-date="2012-12-31">33029</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00045218">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00045218" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00045549</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -260,7 +290,7 @@
     <participating-org role="2" type="40" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00017">
+    <participating-org role="1" type="40" ref="46002">
       <narrative>AFRICAN DEVELOPMENT BANK</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -274,10 +304,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/00045549_MOU%20UNDP%20STP-ABD.pdf">
       <title>
@@ -316,7 +346,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00053822" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00053822</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -327,7 +357,7 @@
     <description type="1">
       <narrative>ADMINISTRATIVE SUPPORT TO THE NATIONAL OFFICER OF AFRICAN DEVELOPPEMENT BANK UNIT IN STP</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00017">
+    <participating-org role="1" type="40" ref="46002">
       <narrative>AFRICAN DEVELOPMENT BANK</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -390,38 +420,38 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">8208.000</value>
+      <value currency="USD" value-date="2016-05-31">8208</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">59000.000</value>
+      <value currency="USD" value-date="2015-12-31">59000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">59417.000</value>
+      <value currency="USD" value-date="2014-12-31">59417</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">87759.000</value>
+      <value currency="USD" value-date="2013-12-31">87759</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2012-01-01" />
       <period-end iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">34697.000</value>
+      <value currency="USD" value-date="2012-12-31">34697</value>
     </budget>
     <capital-spend percentage="2.00" />
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">2707.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">5812</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -429,9 +459,21 @@
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">8208.000</value>
-      <provider-org type="40" ref="00017">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">8208</value>
+      <provider-org type="40" ref="46002">
+        <narrative>AFRICAN DEVELOPMENT BANK</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">59000</value>
+      <provider-org type="40" ref="46002">
         <narrative>AFRICAN DEVELOPMENT BANK</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -441,9 +483,81 @@
     </transaction>
     <transaction>
       <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00017">
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">43961</value>
+      <provider-org ref="46002" provider-activity-id="79160" type="40">
+        <narrative>AFRICAN DEVELOPMENT BANK</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">59417</value>
+      <provider-org type="40" ref="46002">
+        <narrative>AFRICAN DEVELOPMENT BANK</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">55810</value>
+      <provider-org ref="46002" provider-activity-id="79160" type="40">
+        <narrative>AFRICAN DEVELOPMENT BANK</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">87759</value>
+      <provider-org type="40" ref="46002">
+        <narrative>AFRICAN DEVELOPMENT BANK</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">33362</value>
+      <provider-org ref="46002" provider-activity-id="79160" type="40">
+        <narrative>AFRICAN DEVELOPMENT BANK</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">34697</value>
+      <provider-org type="40" ref="46002">
+        <narrative>AFRICAN DEVELOPMENT BANK</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">54015</value>
+      <provider-org ref="46002" provider-activity-id="79160" type="40">
         <narrative>AFRICAN DEVELOPMENT BANK</narrative>
       </provider-org>
       <receiver-org ref="XM-DAC-41114">
@@ -454,31 +568,37 @@
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">50495.000</value>
+      <value currency="USD" value-date="2015-12-31">50495</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">44952.000</value>
+      <value currency="USD" value-date="2014-12-31">44952</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">78598.000</value>
+      <value currency="USD" value-date="2013-12-31">78598</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">36192.000</value>
+      <value currency="USD" value-date="2012-12-31">36192</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00045549">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00045549" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00050976</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -495,7 +615,7 @@
     <participating-org role="2" type="40" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -509,10 +629,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/STP-R07-ML_Proposal_0_en.pdf">
       <title>
@@ -551,7 +671,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00063251" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00063251</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -562,7 +682,7 @@
     <description type="1">
       <narrative>Integrated Preventive and Treatment Measures for Malaria control in Sao Tomé and Principe</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -632,33 +752,33 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
+      <value currency="USD" value-date="2016-05-31">0</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">1.000</value>
+      <value currency="USD" value-date="2015-12-31">1</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">2884.000</value>
+      <value currency="USD" value-date="2013-12-31">2884</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2012-01-01" />
       <period-end iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">298301.000</value>
+      <value currency="USD" value-date="2012-12-31">298301</value>
     </budget>
     <capital-spend percentage="2.00" />
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">33.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">36</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -666,9 +786,9 @@
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org type="40" ref="00327">
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">1</value>
+      <provider-org type="40" ref="47045">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -677,13 +797,25 @@
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00327">
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">2884</value>
+      <provider-org type="40" ref="47045">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
-      <receiver-org ref="XM-DAC-41114">
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">298301</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </receiver-org>
       <disbursement-channel code="2" />
@@ -691,25 +823,31 @@
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">15149.000</value>
+      <value currency="USD" value-date="2015-12-31">15149</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">0.000</value>
+      <value currency="USD" value-date="2013-12-31">0</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">81741.000</value>
+      <value currency="USD" value-date="2012-12-31">81741</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00050976">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00050976" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00058652</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -726,7 +864,7 @@
     <participating-org role="2" type="40" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -740,10 +878,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/STP-809-G04-T_GPR_0_en.pdf">
       <title>
@@ -803,7 +941,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00072957" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00072957</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -814,7 +952,7 @@
     <description type="1">
       <narrative>Reinforcement of the National Response to the Tuberculosis Epidemic in Sao Tomé and Principe</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -884,37 +1022,37 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">5826.000</value>
+      <value currency="USD" value-date="2016-05-31">5826</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">84470.000</value>
+      <value currency="USD" value-date="2015-12-31">84470</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">362079.000</value>
+      <value currency="USD" value-date="2014-12-31">362079</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">311252.000</value>
+      <value currency="USD" value-date="2013-12-31">311252</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2012-01-01" />
       <period-end iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">157409.000</value>
+      <value currency="USD" value-date="2012-12-31">157409</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">613.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">656</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -922,9 +1060,21 @@
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">5826.000</value>
-      <provider-org type="40" ref="00327">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">5826</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">84470</value>
+      <provider-org type="40" ref="47045">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -934,9 +1084,81 @@
     </transaction>
     <transaction>
       <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00327">
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">929873</value>
+      <provider-org ref="47045" type="40">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">362079</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">219943</value>
+      <provider-org ref="47045" type="40">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">311252</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">158336</value>
+      <provider-org ref="47045" type="40">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">157409</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">360538</value>
+      <provider-org ref="47045" type="40">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org ref="XM-DAC-41114">
@@ -947,31 +1169,37 @@
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">95492.000</value>
+      <value currency="USD" value-date="2015-12-31">95492</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">305909.000</value>
+      <value currency="USD" value-date="2014-12-31">305909</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">303474.000</value>
+      <value currency="USD" value-date="2013-12-31">303474</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">152716.000</value>
+      <value currency="USD" value-date="2012-12-31">152716</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00058652">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00058652" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00062989</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -988,7 +1216,7 @@
     <participating-org role="2" type="40" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -1002,10 +1230,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/00062989_Consolidation%20Grant%20Agreement.pdf">
       <title>
@@ -1086,7 +1314,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00080294" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00080294</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -1097,7 +1325,7 @@
     <description type="1">
       <narrative>CONSOLIDATING EFFORTS TOWARDS MALARIA ELIMINATION IN SAO TOMÉ AND PRINCIPE</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -1187,47 +1415,71 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">316220.000</value>
+      <value currency="USD" value-date="2016-05-31">316220</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">2529184.000</value>
+      <value currency="USD" value-date="2015-12-31">2529184</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">2799662.000</value>
+      <value currency="USD" value-date="2014-12-31">2799662</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">3701604.000</value>
+      <value currency="USD" value-date="2013-12-31">3701604</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2012-01-01" />
       <period-end iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">888809.000</value>
+      <value currency="USD" value-date="2012-12-31">888809</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">62761.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">102870</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
+      <transaction-type code="3" />
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">2473</value>
+      <provider-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="">
+        <narrative>Government of Sao Tome and Principe</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">316220.000</value>
-      <provider-org type="40" ref="00327">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">316220</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">2529184</value>
+      <provider-org type="40" ref="47045">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -1237,9 +1489,9 @@
     </transaction>
     <transaction>
       <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00327">
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">1088458</value>
+      <provider-org ref="47045" type="40">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org ref="XM-DAC-41114">
@@ -1248,33 +1500,99 @@
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">2799662</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">3306066</value>
+      <provider-org ref="47045" type="40">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">3701604</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">3699517</value>
+      <provider-org ref="47045" type="40">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">888809</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">2910574.000</value>
+      <value currency="USD" value-date="2015-12-31">2910574</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">2228522.000</value>
+      <value currency="USD" value-date="2014-12-31">2228522</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">2655475.000</value>
+      <value currency="USD" value-date="2013-12-31">2655475</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">926700.000</value>
+      <value currency="USD" value-date="2012-12-31">926700</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00062989">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00062989" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00064744</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -1291,7 +1609,7 @@
     <participating-org role="2" type="10" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00012">
+    <participating-org role="1" type="40" ref="XM-DAC-41114">
       <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -1305,10 +1623,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/AWP%2000081398%20(2015).pdf">
       <title>
@@ -1354,7 +1672,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00081398" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00081398</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -1365,7 +1683,10 @@
     <description type="1">
       <narrative>Appui au CPD 2012-2016</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00012">
+    <participating-org role="1" type="40" ref="47045">
+      <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+    </participating-org>
+    <participating-org role="1" type="40" ref="XM-DAC-41114">
       <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -1428,37 +1749,37 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">172000.000</value>
+      <value currency="USD" value-date="2016-05-31">172000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">215000.000</value>
+      <value currency="USD" value-date="2015-12-31">215000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">167000.000</value>
+      <value currency="USD" value-date="2014-12-31">167000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">273000.000</value>
+      <value currency="USD" value-date="2013-12-31">273000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2012-01-01" />
       <period-end iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">273000.000</value>
+      <value currency="USD" value-date="2012-12-31">273000</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">17537.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">48213</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -1466,9 +1787,9 @@
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">172000.000</value>
-      <provider-org type="40" ref="00012">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">172000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
         <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -1477,13 +1798,49 @@
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00012">
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">215000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
         <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
       </provider-org>
-      <receiver-org ref="XM-DAC-41114">
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">167000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">273000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">273000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </receiver-org>
       <disbursement-channel code="2" />
@@ -1491,31 +1848,37 @@
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">217594.000</value>
+      <value currency="USD" value-date="2015-12-31">217594</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">166872.000</value>
+      <value currency="USD" value-date="2014-12-31">166872</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">244969.000</value>
+      <value currency="USD" value-date="2013-12-31">244969</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">250066.000</value>
+      <value currency="USD" value-date="2012-12-31">250066</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00064744">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00064744" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00064754</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -1532,7 +1895,7 @@
     <participating-org role="2" type="10" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00012">
+    <participating-org role="1" type="40" ref="XM-DAC-41114">
       <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -1546,10 +1909,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/AWP%200081405(2015).pdf">
       <title>
@@ -1616,7 +1979,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00081405" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00081405</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -1627,7 +1990,10 @@
     <description type="1">
       <narrative>APPUI A LA PLANIFICATION M&amp;amp;LTERME</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00012">
+    <participating-org role="1" type="40" ref="46002">
+      <narrative>AFRICAN DEVELOPMENT BANK</narrative>
+    </participating-org>
+    <participating-org role="1" type="40" ref="XM-DAC-41114">
       <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -1690,37 +2056,37 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">69014.000</value>
+      <value currency="USD" value-date="2016-05-31">69014</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">185000.000</value>
+      <value currency="USD" value-date="2015-12-31">185000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">55574.000</value>
+      <value currency="USD" value-date="2014-12-31">55574</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">67300.000</value>
+      <value currency="USD" value-date="2013-12-31">67300</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2012-01-01" />
       <period-end iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">61700.000</value>
+      <value currency="USD" value-date="2012-12-31">61700</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">10471.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">10471</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -1728,9 +2094,69 @@
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">69014.000</value>
-      <provider-org type="40" ref="00012">
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">85000</value>
+      <provider-org type="40" ref="46002">
+        <narrative>AFRICAN DEVELOPMENT BANK</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">85000</value>
+      <provider-org ref="46002" type="40">
+        <narrative>AFRICAN DEVELOPMENT BANK</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">69014</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">100000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">55574</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">67300</value>
+      <provider-org type="40" ref="XM-DAC-41114">
         <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -1740,9 +2166,9 @@
     </transaction>
     <transaction>
       <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00012">
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">10000</value>
+      <provider-org ref="XM-DAC-41114" provider-activity-id="64754" type="40">
         <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
       </provider-org>
       <receiver-org ref="XM-DAC-41114">
@@ -1751,33 +2177,51 @@
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">61700</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">183037.000</value>
+      <value currency="USD" value-date="2015-12-31">183037</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">50645.000</value>
+      <value currency="USD" value-date="2014-12-31">50645</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">37939.000</value>
+      <value currency="USD" value-date="2013-12-31">37939</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">40634.000</value>
+      <value currency="USD" value-date="2012-12-31">40634</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00064754">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00064754" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00064992</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -1794,7 +2238,7 @@
     <participating-org role="2" type="40" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -1808,10 +2252,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/STP-011-G05-H_GPR_0_en.pdf">
       <title>
@@ -1864,7 +2308,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00081638" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00081638</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -1875,7 +2319,7 @@
     <description type="1">
       <narrative>Strenghtening the HIV/AIDS response in Sao Tome and Principe by focusing on the vulnerable populations and high risk behaviour groups.</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -1945,47 +2389,59 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">133651.000</value>
+      <value currency="USD" value-date="2016-05-31">199015</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">550629.000</value>
+      <value currency="USD" value-date="2015-12-31">550629</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">464843.000</value>
+      <value currency="USD" value-date="2014-12-31">464843</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">664516.000</value>
+      <value currency="USD" value-date="2013-12-31">664516</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2012-01-01" />
       <period-end iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">165480.000</value>
+      <value currency="USD" value-date="2012-12-31">165480</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">33832.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">63825</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
+      <transaction-type code="3" />
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">14304</value>
+      <provider-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="">
+        <narrative>Government of Sao Tome and Principe</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">133651.000</value>
-      <provider-org type="40" ref="00327">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">199015</value>
+      <provider-org type="40" ref="47045">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -1995,9 +2451,105 @@
     </transaction>
     <transaction>
       <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00327">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">183081</value>
+      <provider-org ref="47045" type="40">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">550629</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">313634</value>
+      <provider-org ref="47045" type="40">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">464843</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">426709</value>
+      <provider-org ref="47045" type="40">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">664516</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">684698</value>
+      <provider-org ref="47045" type="40">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">165480</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">164617</value>
+      <provider-org ref="47045" type="40">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org ref="XM-DAC-41114">
@@ -2008,31 +2560,37 @@
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">415549.000</value>
+      <value currency="USD" value-date="2015-12-31">415549</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">461431.000</value>
+      <value currency="USD" value-date="2014-12-31">461431</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">408539.000</value>
+      <value currency="USD" value-date="2013-12-31">408539</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">98502.000</value>
+      <value currency="USD" value-date="2012-12-31">98502</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00064992">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00064992" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00066178</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -2049,7 +2607,7 @@
     <participating-org role="2" type="10" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00012">
+    <participating-org role="1" type="40" ref="XM-DAC-41114">
       <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -2063,10 +2621,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/LOA(ASSEMBL-DESCENTR).pdf">
       <title>
@@ -2106,7 +2664,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00082392" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00082390</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -2117,7 +2675,7 @@
     <description type="1">
       <narrative>APPUI INSTITUTIONNEL A L'ASSEMBLEE NATIONALE DE SÃO TOME ET PRINCIPE</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00012">
+    <participating-org role="1" type="40" ref="XM-DAC-41114">
       <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -2187,37 +2745,37 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">25000.000</value>
+      <value currency="USD" value-date="2016-05-31">25000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">30000.000</value>
+      <value currency="USD" value-date="2015-12-31">30000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">58000.000</value>
+      <value currency="USD" value-date="2014-12-31">58000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">100000.000</value>
+      <value currency="USD" value-date="2013-12-31">100000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2012-01-01" />
       <period-end iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">1000.000</value>
+      <value currency="USD" value-date="2012-12-31">1000</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">0</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -2225,9 +2783,9 @@
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">25000.000</value>
-      <provider-org type="40" ref="00012">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">25000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
         <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -2236,13 +2794,49 @@
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00012">
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">30000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
         <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
       </provider-org>
-      <receiver-org ref="XM-DAC-41114">
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">58000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">100000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">1000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </receiver-org>
       <disbursement-channel code="2" />
@@ -2250,32 +2844,38 @@
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">29030.000</value>
+      <value currency="USD" value-date="2015-12-31">29030</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">28796.000</value>
+      <value currency="USD" value-date="2014-12-31">28796</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">29975.000</value>
+      <value currency="USD" value-date="2013-12-31">29975</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">114.000</value>
+      <value currency="USD" value-date="2012-12-31">114</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00066178">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00066178" />
     <related-activity type="3" ref="XM-DAC-41114-OUTPUT-00082392" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00082392</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -2286,7 +2886,7 @@
     <description type="1">
       <narrative>APPUI AU RENFORCEMENT DES CAPACITES DU POUVOIR LOCAL</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00012">
+    <participating-org role="1" type="40" ref="XM-DAC-41114">
       <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -2356,37 +2956,37 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">85000.000</value>
+      <value currency="USD" value-date="2016-05-31">85000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">25182.000</value>
+      <value currency="USD" value-date="2015-12-31">25182</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">37000.000</value>
+      <value currency="USD" value-date="2014-12-31">37000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">102.000</value>
+      <value currency="USD" value-date="2013-12-31">102</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2012-01-01" />
       <period-end iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">26000.000</value>
+      <value currency="USD" value-date="2012-12-31">26000</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">9964.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">19704</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -2394,9 +2994,9 @@
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">85000.000</value>
-      <provider-org type="40" ref="00012">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">85000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
         <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -2405,13 +3005,49 @@
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00012">
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">25182</value>
+      <provider-org type="40" ref="XM-DAC-41114">
         <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
       </provider-org>
-      <receiver-org ref="XM-DAC-41114">
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">37000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">102</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">26000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </receiver-org>
       <disbursement-channel code="2" />
@@ -2419,32 +3055,38 @@
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">23643.000</value>
+      <value currency="USD" value-date="2015-12-31">23643</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">36740.000</value>
+      <value currency="USD" value-date="2014-12-31">36740</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">10.000</value>
+      <value currency="USD" value-date="2013-12-31">10</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">22473.000</value>
+      <value currency="USD" value-date="2012-12-31">22473</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00066178">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00066178" />
     <related-activity type="3" ref="XM-DAC-41114-OUTPUT-00082390" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00066180</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -2461,7 +3103,7 @@
     <participating-org role="2" type="10" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00012">
+    <participating-org role="1" type="40" ref="XM-DAC-41114">
       <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -2475,10 +3117,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/AWP%2000082391%20(2015).pdf">
       <title>
@@ -2524,7 +3166,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00082391" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00082391</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -2535,7 +3177,13 @@
     <description type="1">
       <narrative>APPUI AU PROGRAMME DE REFORME DE JUSTICE</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00012">
+    <participating-org role="1" type="10" ref="00225">
+      <narrative>GOVERNMENT OF SAO TOME AND PRINCIPE</narrative>
+    </participating-org>
+    <participating-org role="1" type="40" ref="10159">
+      <narrative>EUROPEAN COMMISSION</narrative>
+    </participating-org>
+    <participating-org role="1" type="40" ref="XM-DAC-41114">
       <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -2598,37 +3246,37 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">70000.000</value>
+      <value currency="USD" value-date="2016-05-31">70000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">76500.000</value>
+      <value currency="USD" value-date="2015-12-31">76500</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">70000.000</value>
+      <value currency="USD" value-date="2014-12-31">70000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">100000.000</value>
+      <value currency="USD" value-date="2013-12-31">100000</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2012-01-01" />
       <period-end iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">150000.000</value>
+      <value currency="USD" value-date="2012-12-31">150000</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">7764.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">17776</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -2636,9 +3284,9 @@
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">70000.000</value>
-      <provider-org type="40" ref="00012">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">70000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
         <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -2647,13 +3295,49 @@
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00012">
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">76500</value>
+      <provider-org type="40" ref="XM-DAC-41114">
         <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
       </provider-org>
-      <receiver-org ref="XM-DAC-41114">
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">70000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">100000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2012-12-31" />
+      <value currency="USD" value-date="2012-12-31">150000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </receiver-org>
       <disbursement-channel code="2" />
@@ -2661,31 +3345,37 @@
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">75819.000</value>
+      <value currency="USD" value-date="2015-12-31">75819</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">65891.000</value>
+      <value currency="USD" value-date="2014-12-31">65891</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">69948.000</value>
+      <value currency="USD" value-date="2013-12-31">69948</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2012-12-31" />
-      <value currency="USD" value-date="2012-12-31">111749.000</value>
+      <value currency="USD" value-date="2012-12-31">111749</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00066180">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00066180" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00069858</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -2702,11 +3392,11 @@
     <participating-org role="2" type="10" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00012">
-      <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
-    </participating-org>
     <participating-org role="1" type="10" ref="00225">
       <narrative>GOVERNMENT OF SAO TOME AND PRINCIPE</narrative>
+    </participating-org>
+    <participating-org role="1" type="40" ref="XM-DAC-41114">
+      <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
     </participating-org>
     <activity-status code="2" />
     <activity-date type="1" iso-date="2013-01-01" />
@@ -2719,10 +3409,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/00084177(2015).pdf">
       <title>
@@ -2768,7 +3458,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00084177" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00084177</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -2779,11 +3469,11 @@
     <description type="1">
       <narrative>Appui logistic et organisationnel au processus électoral</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00012">
-      <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
-    </participating-org>
     <participating-org role="1" type="10" ref="00225">
       <narrative>GOVERNMENT OF SAO TOME AND PRINCIPE</narrative>
+    </participating-org>
+    <participating-org role="1" type="40" ref="XM-DAC-41114">
+      <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
     </participating-org>
     <activity-status code="2" />
     <activity-date type="1" iso-date="2013-01-01" />
@@ -2793,9 +3483,50 @@
       <email>registry.st@undp.org</email>
       <website></website>
     </contact-info>
+    <activity-scope code="4" />
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
+    <location ref="ST">
+      <location-reach code="1" />
+      <location-id vocabulary="G1" code="2410758" />
+      <name>
+        <narrative>Sao Tome and Principe</narrative>
+      </name>
+      <description>
+        <narrative>independent political entity</narrative>
+      </description>
+      <activity-description>
+        <narrative></narrative>
+      </activity-description>
+      <administrative level="0" code="2410758" vocabulary="G1" />
+      <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+        <pos>1.000000 7.000000</pos>
+      </point>
+      <exactness code="1" />
+      <location-class code="1" />
+      <feature-designation code="PCLI" />
+    </location>
+    <location ref="ST">
+      <location-reach code="1" />
+      <location-id vocabulary="G1" code="2410758" />
+      <name>
+        <narrative>Sao Tome and Principe</narrative>
+      </name>
+      <description>
+        <narrative>independent political entity</narrative>
+      </description>
+      <activity-description>
+        <narrative></narrative>
+      </activity-description>
+      <administrative level="0" code="2410758" vocabulary="G1" />
+      <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+        <pos>1.000000 7.000000</pos>
+      </point>
+      <exactness code="1" />
+      <location-class code="1" />
+      <feature-designation code="PCLI" />
+    </location>
     <sector vocabulary="1" code="15151" />
     <sector vocabulary="99" code="2">
       <narrative>Democratic Governance</narrative>
@@ -2811,27 +3542,27 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">209240.000</value>
+      <value currency="USD" value-date="2016-05-31">209240</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">8927.000</value>
+      <value currency="USD" value-date="2015-12-31">8927</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">401741.000</value>
+      <value currency="USD" value-date="2014-12-31">401741</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">153545.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">180311</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -2839,10 +3570,10 @@
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">50000.000</value>
-      <provider-org type="40" ref="00012">
-        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">159240</value>
+      <provider-org type="10" ref="00225">
+        <narrative>GOVERNMENT OF SAO TOME AND PRINCIPE</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
@@ -2850,21 +3581,21 @@
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00012">
-        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">8927</value>
+      <provider-org type="10" ref="00225">
+        <narrative>GOVERNMENT OF SAO TOME AND PRINCIPE</narrative>
       </provider-org>
-      <receiver-org ref="XM-DAC-41114">
+      <receiver-org type="40" ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </receiver-org>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">159240.000</value>
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">347741</value>
       <provider-org type="10" ref="00225">
         <narrative>GOVERNMENT OF SAO TOME AND PRINCIPE</narrative>
       </provider-org>
@@ -2875,9 +3606,9 @@
     </transaction>
     <transaction>
       <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00225">
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">512345</value>
+      <provider-org ref="00225" type="10">
         <narrative>GOVERNMENT OF SAO TOME AND PRINCIPE</narrative>
       </provider-org>
       <receiver-org ref="XM-DAC-41114">
@@ -2886,21 +3617,51 @@
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">50000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">54000</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">8927.000</value>
+      <value currency="USD" value-date="2015-12-31">8927</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">399371.000</value>
+      <value currency="USD" value-date="2014-12-31">399371</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00069858">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00069858" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00073481</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -2923,7 +3684,7 @@
     <activity-status code="2" />
     <activity-date type="1" iso-date="2013-04-17" />
     <activity-date type="2" iso-date="2013-04-17" />
-    <activity-date type="3" iso-date="2016-01-01" />
+    <activity-date type="3" iso-date="2016-12-31" />
     <contact-info type="1">
       <email>registry.st@undp.org</email>
       <website></website>
@@ -2931,10 +3692,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/PID-PPG%20STP.pdf">
       <title>
@@ -2980,7 +3741,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00086271" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00086271</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -2997,7 +3758,7 @@
     <activity-status code="2" />
     <activity-date type="1" iso-date="2013-04-17" />
     <activity-date type="2" iso-date="2013-04-17" />
-    <activity-date type="3" iso-date="2015-02-21" />
+    <activity-date type="3" iso-date="2016-12-31" />
     <contact-info type="1">
       <email>registry.st@undp.org</email>
       <website></website>
@@ -3054,33 +3815,33 @@
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">2754.000</value>
+      <value currency="USD" value-date="2016-05-31">2754</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">22420.000</value>
+      <value currency="USD" value-date="2015-12-31">22420</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">15370.000</value>
+      <value currency="USD" value-date="2014-12-31">15370</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">70000.000</value>
+      <value currency="USD" value-date="2013-12-31">70000</value>
     </budget>
     <capital-spend percentage="0.00" />
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">0</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -3088,8 +3849,8 @@
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">2754.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">2754</value>
       <provider-org type="40" ref="10003">
         <narrative>Global Environment Fund Truste</narrative>
       </provider-org>
@@ -3099,13 +3860,37 @@
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="10003">
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">22420</value>
+      <provider-org type="40" ref="10003">
         <narrative>Global Environment Fund Truste</narrative>
       </provider-org>
-      <receiver-org ref="XM-DAC-41114">
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">15370</value>
+      <provider-org type="40" ref="10003">
+        <narrative>Global Environment Fund Truste</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">70000</value>
+      <provider-org type="40" ref="10003">
+        <narrative>Global Environment Fund Truste</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </receiver-org>
       <disbursement-channel code="2" />
@@ -3113,25 +3898,31 @@
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">19653.000</value>
+      <value currency="USD" value-date="2015-12-31">19653</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">15370.000</value>
+      <value currency="USD" value-date="2014-12-31">15370</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">32390.000</value>
+      <value currency="USD" value-date="2013-12-31">32390</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00073481">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00073481" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00074452</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -3154,7 +3945,7 @@
     <activity-status code="2" />
     <activity-date type="1" iso-date="2013-06-09" />
     <activity-date type="2" iso-date="2013-06-09" />
-    <activity-date type="3" iso-date="2016-12-31" />
+    <activity-date type="3" iso-date="2019-12-31" />
     <contact-info type="1">
       <email>registry.st@undp.org</email>
       <website></website>
@@ -3162,10 +3953,10 @@
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/PIMS%204602%20signed%20DOA%20(juillet%202013).pdf">
       <title>
@@ -3237,7 +4028,7 @@
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00086865" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00086865</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -3251,17 +4042,61 @@
     <participating-org role="1" type="40" ref="10003">
       <narrative>Global Environment Fund Truste</narrative>
     </participating-org>
+    <participating-org role="1" type="40" ref="XM-DAC-41114">
+      <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+    </participating-org>
     <activity-status code="2" />
     <activity-date type="1" iso-date="2013-06-09" />
     <activity-date type="2" iso-date="2013-06-09" />
-    <activity-date type="3" iso-date="2016-12-31" />
+    <activity-date type="3" iso-date="2019-12-31" />
     <contact-info type="1">
       <email>registry.st@undp.org</email>
       <website></website>
     </contact-info>
+    <activity-scope code="4" />
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
+    <location ref="ST">
+      <location-reach code="1" />
+      <location-id vocabulary="G1" code="2410758" />
+      <name>
+        <narrative>Sao Tome and Principe</narrative>
+      </name>
+      <description>
+        <narrative>independent political entity</narrative>
+      </description>
+      <activity-description>
+        <narrative></narrative>
+      </activity-description>
+      <administrative level="0" code="2410758" vocabulary="G1" />
+      <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+        <pos>1.000000 7.000000</pos>
+      </point>
+      <exactness code="1" />
+      <location-class code="1" />
+      <feature-designation code="PCLI" />
+    </location>
+    <location ref="ST">
+      <location-reach code="1" />
+      <location-id vocabulary="G1" code="2410758" />
+      <name>
+        <narrative>Sao Tome and Principe</narrative>
+      </name>
+      <description>
+        <narrative>independent political entity</narrative>
+      </description>
+      <activity-description>
+        <narrative></narrative>
+      </activity-description>
+      <administrative level="0" code="2410758" vocabulary="G1" />
+      <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+        <pos>1.000000 7.000000</pos>
+      </point>
+      <exactness code="1" />
+      <location-class code="1" />
+      <feature-designation code="PCLI" />
+    </location>
     <sector vocabulary="1" code="74010" />
     <sector vocabulary="99" code="5">
       <narrative>Climate Change &amp; Disaster Resilience</narrative>
@@ -3273,40 +4108,52 @@
         </description>
       </budget-item>
     </country-budget-items>
-    <policy-marker vocabulary="1" code="1" significance="0" />
+    <policy-marker vocabulary="1" code="1" significance="1" />
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">724600.000</value>
+      <value currency="USD" value-date="2016-05-31">724600</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">1430528.000</value>
+      <value currency="USD" value-date="2015-12-31">1430528</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">1060600.000</value>
+      <value currency="USD" value-date="2014-12-31">1060600</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">137853.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">219169</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
+      <transaction-type code="3" />
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">35240</value>
+      <provider-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="">
+        <narrative>Government of Sao Tome and Principe</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">724600.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">724600</value>
       <provider-org type="40" ref="10003">
         <narrative>Global Environment Fund Truste</narrative>
       </provider-org>
@@ -3316,11 +4163,47 @@
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="10003">
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">1428500</value>
+      <provider-org type="40" ref="10003">
         <narrative>Global Environment Fund Truste</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">1060600</value>
+      <provider-org type="40" ref="10003">
+        <narrative>Global Environment Fund Truste</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">2028</value>
+      <provider-org type="40" ref="XM-DAC-41114">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">1028</value>
+      <provider-org ref="XM-DAC-41114" type="40">
+        <narrative>UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
       </provider-org>
       <receiver-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
@@ -3330,15 +4213,21 @@
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">1394324.000</value>
+      <value currency="USD" value-date="2015-12-31">1394324</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">1019681.000</value>
+      <value currency="USD" value-date="2014-12-31">1019681</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00074452">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00074452" />
     <conditions attached="0" />
     <result type="2" aggregation-status="1">
@@ -3546,7 +4435,7 @@ A local committee for natural disasters and risk management with a proper traini
       </indicator>
     </result>
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00075032</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -3577,10 +4466,10 @@ A local committee for natural disasters and risk management with a proper traini
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/PIMS%204602%20STP%20MFA%20ProDoc.pdf">
       <title>
@@ -3619,7 +4508,7 @@ A local committee for natural disasters and risk management with a proper traini
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00087147" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00087147</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -3636,7 +4525,7 @@ A local committee for natural disasters and risk management with a proper traini
     <activity-status code="2" />
     <activity-date type="1" iso-date="2013-07-10" />
     <activity-date type="2" iso-date="2013-07-10" />
-    <activity-date type="3" iso-date="2014-12-31" />
+    <activity-date type="3" iso-date="2016-12-31" />
     <contact-info type="1">
       <email>registry.st@undp.org</email>
       <website></website>
@@ -3696,37 +4585,37 @@ A local committee for natural disasters and risk management with a proper traini
         </description>
       </budget-item>
     </country-budget-items>
-    <policy-marker vocabulary="1" code="1" significance="0" />
+    <policy-marker vocabulary="1" code="1" significance="1" />
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">12865.000</value>
+      <value currency="USD" value-date="2016-05-31">12865</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">37464.000</value>
+      <value currency="USD" value-date="2015-12-31">37464</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2014-01-01" />
       <period-end iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">44081.000</value>
+      <value currency="USD" value-date="2014-12-31">44081</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">89000.000</value>
+      <value currency="USD" value-date="2013-12-31">89000</value>
     </budget>
     <capital-spend percentage="0.00" />
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">0</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -3734,8 +4623,8 @@ A local committee for natural disasters and risk management with a proper traini
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">12865.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">12865</value>
       <provider-org type="40" ref="10003">
         <narrative>Global Environment Fund Truste</narrative>
       </provider-org>
@@ -3745,13 +4634,37 @@ A local committee for natural disasters and risk management with a proper traini
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="10003">
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">37464</value>
+      <provider-org type="40" ref="10003">
         <narrative>Global Environment Fund Truste</narrative>
       </provider-org>
-      <receiver-org ref="XM-DAC-41114">
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2014-12-31" />
+      <value currency="USD" value-date="2014-12-31">44081</value>
+      <provider-org type="40" ref="10003">
+        <narrative>Global Environment Fund Truste</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2013-12-31" />
+      <value currency="USD" value-date="2013-12-31">89000</value>
+      <provider-org type="40" ref="10003">
+        <narrative>Global Environment Fund Truste</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </receiver-org>
       <disbursement-channel code="2" />
@@ -3759,25 +4672,31 @@ A local committee for natural disasters and risk management with a proper traini
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">24599.000</value>
+      <value currency="USD" value-date="2015-12-31">24599</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2014-12-31" />
-      <value currency="USD" value-date="2014-12-31">44081.000</value>
+      <value currency="USD" value-date="2014-12-31">44081</value>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2013-12-31" />
-      <value currency="USD" value-date="2013-12-31">18454.000</value>
+      <value currency="USD" value-date="2013-12-31">18454</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00075032">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00075032" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00083410</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -3808,10 +4727,10 @@ A local committee for natural disasters and risk management with a proper traini
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/PRODOC-ENG.pdf">
       <title>
@@ -3871,7 +4790,7 @@ A local committee for natural disasters and risk management with a proper traini
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00091898" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00091898</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -3893,9 +4812,50 @@ A local committee for natural disasters and risk management with a proper traini
       <email>registry.st@undp.org</email>
       <website></website>
     </contact-info>
+    <activity-scope code="4" />
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
+    <location ref="ST">
+      <location-reach code="1" />
+      <location-id vocabulary="G1" code="2410758" />
+      <name>
+        <narrative>Sao Tome and Principe</narrative>
+      </name>
+      <description>
+        <narrative>independent political entity</narrative>
+      </description>
+      <activity-description>
+        <narrative></narrative>
+      </activity-description>
+      <administrative level="0" code="2410758" vocabulary="G1" />
+      <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+        <pos>1.000000 7.000000</pos>
+      </point>
+      <exactness code="1" />
+      <location-class code="1" />
+      <feature-designation code="PCLI" />
+    </location>
+    <location ref="ST">
+      <location-reach code="1" />
+      <location-id vocabulary="G1" code="2410758" />
+      <name>
+        <narrative>Sao Tome and Principe</narrative>
+      </name>
+      <description>
+        <narrative>independent political entity</narrative>
+      </description>
+      <activity-description>
+        <narrative></narrative>
+      </activity-description>
+      <administrative level="0" code="2410758" vocabulary="G1" />
+      <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+        <pos>1.000000 7.000000</pos>
+      </point>
+      <exactness code="1" />
+      <location-class code="1" />
+      <feature-designation code="PCLI" />
+    </location>
     <sector vocabulary="1" code="74010" />
     <sector vocabulary="99" code="5">
       <narrative>Climate Change &amp; Disaster Resilience</narrative>
@@ -3911,22 +4871,22 @@ A local committee for natural disasters and risk management with a proper traini
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">1195335.000</value>
+      <value currency="USD" value-date="2016-05-31">1195335</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">500000.000</value>
+      <value currency="USD" value-date="2015-12-31">500000</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">31984.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">119193</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -3934,8 +4894,8 @@ A local committee for natural disasters and risk management with a proper traini
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">1195335.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">1195335</value>
       <provider-org type="40" ref="10003">
         <narrative>Global Environment Fund Truste</narrative>
       </provider-org>
@@ -3945,13 +4905,13 @@ A local committee for natural disasters and risk management with a proper traini
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="10003">
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">500000</value>
+      <provider-org type="40" ref="10003">
         <narrative>Global Environment Fund Truste</narrative>
       </provider-org>
-      <receiver-org ref="XM-DAC-41114">
+      <receiver-org type="40" ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </receiver-org>
       <disbursement-channel code="2" />
@@ -3959,13 +4919,19 @@ A local committee for natural disasters and risk management with a proper traini
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">500431.000</value>
+      <value currency="USD" value-date="2015-12-31">500431</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00083410">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00083410" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00087589</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -3996,10 +4962,10 @@ A local committee for natural disasters and risk management with a proper traini
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/PIMS%204602%20STP%20MFA%20ProDoc(00094537).pdf">
       <title>
@@ -4013,6 +4979,25 @@ A local committee for natural disasters and risk management with a proper traini
       <category code="A08" />
       <language code="en" />
     </document-link>
+    <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/PRODOC%20ENERGY%20ENG.pdf">
+      <title>
+        <narrative>PRODOC-FINAL 00087589-PIMS#4602</narrative>
+      </title>
+      <category code="A01" />
+      <category code="A02" />
+      <category code="A03" />
+      <category code="A04" />
+      <category code="A05" />
+      <category code="A08" />
+      <language code="en" />
+    </document-link>
+    <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/MICRO%20EVAL%20IP-DIRECT%20RES.%20NAT.ENERGIE(PIMS4602).pdf">
+      <title>
+        <narrative>MICRO EVAL IPDIRECT RES NATENERGIEPIMS4602</narrative>
+      </title>
+      <category code="A07" />
+      <language code="fr" />
+    </document-link>
     <document-link format="text/html" url="http://procurement-notices.undp.org/index.cfm">
       <title>
         <narrative>Request for Procurement</narrative>
@@ -4023,7 +5008,7 @@ A local committee for natural disasters and risk management with a proper traini
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00094537" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00094537</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -4059,21 +5044,21 @@ A local committee for natural disasters and risk management with a proper traini
         </description>
       </budget-item>
     </country-budget-items>
-    <policy-marker vocabulary="1" code="1" significance="0" />
+    <policy-marker vocabulary="1" code="1" significance="1" />
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">1849220.000</value>
+      <value currency="USD" value-date="2016-05-31">1849220</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">20317</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -4081,8 +5066,8 @@ A local committee for natural disasters and risk management with a proper traini
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">1849220.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">1849220</value>
       <provider-org type="40" ref="10003">
         <narrative>Global Environment Fund Truste</narrative>
       </provider-org>
@@ -4091,22 +5076,16 @@ A local committee for natural disasters and risk management with a proper traini
       </receiver-org>
       <disbursement-channel code="2" />
     </transaction>
-    <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="10003">
-        <narrative>Global Environment Fund Truste</narrative>
-      </provider-org>
-      <receiver-org ref="XM-DAC-41114">
-        <narrative>United Nations development Programme</narrative>
-      </receiver-org>
-      <disbursement-channel code="2" />
-    </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00087589">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00087589" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00089988</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -4123,7 +5102,7 @@ A local committee for natural disasters and risk management with a proper traini
     <participating-org role="2" type="40" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -4137,10 +5116,10 @@ A local committee for natural disasters and risk management with a proper traini
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/STP-T_ConceptNote_0_en.pdf">
       <title>
@@ -4179,7 +5158,7 @@ A local committee for natural disasters and risk management with a proper traini
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00095983" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00095983</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -4190,7 +5169,7 @@ A local committee for natural disasters and risk management with a proper traini
     <description type="1">
       <narrative>Scaling-up the national response to tuberculosis in STP</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -4201,9 +5180,50 @@ A local committee for natural disasters and risk management with a proper traini
       <email>registry.st@undp.org</email>
       <website></website>
     </contact-info>
+    <activity-scope code="4" />
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
+    <location ref="ST">
+      <location-reach code="1" />
+      <location-id vocabulary="G1" code="2410758" />
+      <name>
+        <narrative>Sao Tome and Principe</narrative>
+      </name>
+      <description>
+        <narrative>independent political entity</narrative>
+      </description>
+      <activity-description>
+        <narrative></narrative>
+      </activity-description>
+      <administrative level="0" code="2410758" vocabulary="G1" />
+      <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+        <pos>1.000000 7.000000</pos>
+      </point>
+      <exactness code="1" />
+      <location-class code="1" />
+      <feature-designation code="PCLI" />
+    </location>
+    <location ref="ST">
+      <location-reach code="1" />
+      <location-id vocabulary="G1" code="2410758" />
+      <name>
+        <narrative>Sao Tome and Principe</narrative>
+      </name>
+      <description>
+        <narrative>independent political entity</narrative>
+      </description>
+      <activity-description>
+        <narrative></narrative>
+      </activity-description>
+      <administrative level="0" code="2410758" vocabulary="G1" />
+      <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+        <pos>1.000000 7.000000</pos>
+      </point>
+      <exactness code="1" />
+      <location-class code="1" />
+      <feature-designation code="PCLI" />
+    </location>
     <sector vocabulary="1" code="15112" />
     <sector vocabulary="99" code="3">
       <narrative>Responsive Institutions</narrative>
@@ -4219,32 +5239,44 @@ A local committee for natural disasters and risk management with a proper traini
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">691076.000</value>
+      <value currency="USD" value-date="2016-05-31">691076</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">577594.000</value>
+      <value currency="USD" value-date="2015-12-31">577594</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">37885.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">246256</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
+      <transaction-type code="3" />
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">28969</value>
+      <provider-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="">
+        <narrative>Government of Sao Tome and Principe</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">691076.000</value>
-      <provider-org type="40" ref="00327">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">691076</value>
+      <provider-org type="40" ref="47045">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -4253,13 +5285,13 @@ A local committee for natural disasters and risk management with a proper traini
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
-      <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">0.000</value>
-      <provider-org ref="00327">
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">577594</value>
+      <provider-org type="40" ref="47045">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
-      <receiver-org ref="XM-DAC-41114">
+      <receiver-org type="40" ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </receiver-org>
       <disbursement-channel code="2" />
@@ -4267,13 +5299,19 @@ A local committee for natural disasters and risk management with a proper traini
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">188073.000</value>
+      <value currency="USD" value-date="2015-12-31">188073</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00089988">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00089988" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00092818</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -4282,7 +5320,7 @@ A local committee for natural disasters and risk management with a proper traini
       <narrative>Support to the STP CCM Reform Process, 2015-2017</narrative>
     </title>
     <description type="1">
-      <narrative>Support to the STP CCM Reform</narrative>
+      <narrative>Support to the STP CCM Reform Process, 2015-2017</narrative>
     </description>
     <participating-org role="4" type="40" ref="02869">
       <narrative>UNITED NATIONS DEVELOPMENT PRO</narrative>
@@ -4290,7 +5328,7 @@ A local committee for natural disasters and risk management with a proper traini
     <participating-org role="2" type="40" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -4304,10 +5342,10 @@ A local committee for natural disasters and risk management with a proper traini
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/PRODOC%20%20CCM-GFATM%2000092818.pdf">
       <title>
@@ -4321,19 +5359,33 @@ A local committee for natural disasters and risk management with a proper traini
       <category code="A08" />
       <language code="en" />
     </document-link>
+    <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/ProDoc-GestionFinancementCCM-11April2014.pdf">
+      <title>
+        <narrative>PRODOC (FR) CCM-GFATM</narrative>
+      </title>
+      <category code="A09" />
+      <language code="fr" />
+    </document-link>
+    <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/Acordo%20CCM.pdf">
+      <title>
+        <narrative>GFATM- FUNDING-CCM AGREEMENT (POR)</narrative>
+      </title>
+      <category code="A09" />
+      <language code="en" />
+    </document-link>
+    <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/CCMFundingAgreement_STP-CFUND-1301_signed14Jan2016.pdf">
+      <title>
+        <narrative>GFATM-CCN FUNDING AGREEMENT (EN)</narrative>
+      </title>
+      <category code="A09" />
+      <language code="en" />
+    </document-link>
     <document-link format="text/html" url="http://open.undp.org/#project/00092818">
       <title>
         <narrative>Purchase Order Summary</narrative>
       </title>
       <category code="A11" />
       <category code="A12" />
-      <language code="en" />
-    </document-link>
-    <document-link format="application/pdf" url="http://www.st.undp.org/content/dam/sao_tome_and_principe/docs/Publication/Cadre%20legal/undp_st_UNDAF_2012_2016.pdf">
-      <title>
-        <narrative>undp_st_UNDAF_2012_2016</narrative>
-      </title>
-      <category code="A09" />
       <language code="en" />
     </document-link>
     <document-link format="text/html" url="http://procurement-notices.undp.org/index.cfm">
@@ -4346,7 +5398,7 @@ A local committee for natural disasters and risk management with a proper traini
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00097365" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00097365</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -4357,7 +5409,7 @@ A local committee for natural disasters and risk management with a proper traini
     <description type="1">
       <narrative>Support to the STP CCM Reform</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -4386,22 +5438,22 @@ A local committee for natural disasters and risk management with a proper traini
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">89896.000</value>
+      <value currency="USD" value-date="2016-05-31">89896</value>
     </budget>
     <budget type="2" status="2">
       <period-start iso-date="2015-01-01" />
       <period-end iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">35146.000</value>
+      <value currency="USD" value-date="2015-12-31">35146</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">613.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">1985</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
@@ -4409,9 +5461,9 @@ A local committee for natural disasters and risk management with a proper traini
     </transaction>
     <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">89896.000</value>
-      <provider-org type="40" ref="00327">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">89896</value>
+      <provider-org type="40" ref="47045">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -4421,9 +5473,33 @@ A local committee for natural disasters and risk management with a proper traini
     </transaction>
     <transaction>
       <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">89896.000</value>
-      <provider-org ref="00327">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">89896</value>
+      <provider-org ref="47045" type="40">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="2" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">35146</value>
+      <provider-org type="40" ref="47045">
+        <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
+      <transaction-type code="1" />
+      <transaction-date iso-date="2015-12-31" />
+      <value currency="USD" value-date="2015-12-31">35146</value>
+      <provider-org ref="47045" type="40">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org ref="XM-DAC-41114">
@@ -4434,13 +5510,19 @@ A local committee for natural disasters and risk management with a proper traini
     <transaction>
       <transaction-type code="4" />
       <transaction-date iso-date="2015-12-31" />
-      <value currency="USD" value-date="2015-12-31">35146.000</value>
+      <value currency="USD" value-date="2015-12-31">35146</value>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00092818">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00092818" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="1">
     <iati-identifier>XM-DAC-41114-PROJECT-00092916</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -4457,7 +5539,7 @@ A local committee for natural disasters and risk management with a proper traini
     <participating-org role="2" type="40" ref="00012">
       <narrative>United Nations Development Programme</narrative>
     </participating-org>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -4471,11 +5553,23 @@ A local committee for natural disasters and risk management with a proper traini
     <recipient-country code="ST">
       <narrative>Sao Tome and Principe</narrative>
     </recipient-country>
-    <collaboration-type code="1" />
+    <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
+    <document-link format="application/pdf" url="https://info.undp.org/docs/pdc/Documents/STP/STP_Investing%20for%20impact%20%20of%20Malaria,CN_01Jun2015-Final.pdf">
+      <title>
+        <narrative>FINAL CONCEPT NOTE FOR 00092916 PROJECT (GFATM-MALARIA)</narrative>
+      </title>
+      <category code="A01" />
+      <category code="A02" />
+      <category code="A03" />
+      <category code="A04" />
+      <category code="A05" />
+      <category code="A08" />
+      <language code="en" />
+    </document-link>
     <document-link format="text/html" url="http://procurement-notices.undp.org/index.cfm">
       <title>
         <narrative>Request for Procurement</narrative>
@@ -4486,7 +5580,7 @@ A local committee for natural disasters and risk management with a proper traini
     <related-activity type="2" ref="XM-DAC-41114-OUTPUT-00097419" />
     <conditions attached="0" />
   </iati-activity>
-  <iati-activity last-updated-datetime="2016-04-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
+  <iati-activity last-updated-datetime="2016-06-01T00:02:02" default-currency="USD" xml:lang="fr" hierarchy="2">
     <iati-identifier>XM-DAC-41114-OUTPUT-00097419</iati-identifier>
     <reporting-org ref="XM-DAC-41114" type="40">
       <narrative>United Nations Development Programme</narrative>
@@ -4497,7 +5591,7 @@ A local committee for natural disasters and risk management with a proper traini
     <description type="1">
       <narrative>Investing for Malaria Elimination in Sao Tome and Principe</narrative>
     </description>
-    <participating-org role="1" type="40" ref="00327">
+    <participating-org role="1" type="40" ref="47045">
       <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
     </participating-org>
     <activity-status code="2" />
@@ -4526,27 +5620,39 @@ A local committee for natural disasters and risk management with a proper traini
     <collaboration-type code="4" />
     <default-flow-type code="10" />
     <default-finance-type code="110" />
-    <default-aid-type code="A01" />
+    <default-aid-type code="C01" />
     <default-tied-status code="3" />
     <budget type="2" status="2">
       <period-start iso-date="2016-01-01" />
       <period-end iso-date="2016-12-31" />
-      <value currency="USD" value-date="2016-03-31">2019040.000</value>
+      <value currency="USD" value-date="2016-05-31">2019040</value>
     </budget>
     <transaction>
       <transaction-type code="4" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">85200.000</value>
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">307529</value>
       <provider-org ref="XM-DAC-41114">
         <narrative>United Nations development Programme</narrative>
       </provider-org>
       <disbursement-channel code="2" />
     </transaction>
     <transaction>
+      <transaction-type code="3" />
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">48420</value>
+      <provider-org ref="XM-DAC-41114">
+        <narrative>United Nations development Programme</narrative>
+      </provider-org>
+      <receiver-org type="40" ref="">
+        <narrative>Government of Sao Tome and Principe</narrative>
+      </receiver-org>
+      <disbursement-channel code="2" />
+    </transaction>
+    <transaction>
       <transaction-type code="2" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">2019040.000</value>
-      <provider-org type="40" ref="00327">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">2019040</value>
+      <provider-org type="40" ref="47045">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org type="40" ref="XM-DAC-41114">
@@ -4556,9 +5662,9 @@ A local committee for natural disasters and risk management with a proper traini
     </transaction>
     <transaction>
       <transaction-type code="1" />
-      <transaction-date iso-date="2016-03-31" />
-      <value currency="USD" value-date="2016-03-31">2020104.000</value>
-      <provider-org ref="00327">
+      <transaction-date iso-date="2016-05-31" />
+      <value currency="USD" value-date="2016-05-31">2020104</value>
+      <provider-org ref="47045" type="40">
         <narrative>GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
       </provider-org>
       <receiver-org ref="XM-DAC-41114">
@@ -4566,6 +5672,12 @@ A local committee for natural disasters and risk management with a proper traini
       </receiver-org>
       <disbursement-channel code="2" />
     </transaction>
+    <document-link format="text/html" url="http://open.undp.org/#project/00092916">
+      <title>
+        <narrative>Activity web page</narrative>
+      </title>
+      <category code="A12" />
+    </document-link>
     <related-activity type="1" ref="XM-DAC-41114-PROJECT-00092916" />
     <conditions attached="0" />
   </iati-activity>
